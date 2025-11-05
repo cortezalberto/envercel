@@ -245,7 +245,9 @@ npm run preview
 4. Deploy `dist/` folder to hosting platform
 5. Verify backend CORS allows frontend domain
 
-**Remember**: Vite proxy in `vite.config.ts` only works in development (`npm run dev`). Production builds use `VITE_API_URL` directly.
+**Remember**:
+- Vite proxy in `vite.config.ts` only works in development (`npm run dev`). Production builds use `VITE_API_URL` directly.
+- This project is designed for static hosting deployment (no Docker needed).
 
 ## Troubleshooting
 
