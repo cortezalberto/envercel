@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+*.local
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.*
+
+# Cache
+.vite/
+.cache/
+
+# Coverage
+coverage/
+
+# Generated files
+package-lock.json
